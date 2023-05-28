@@ -28,7 +28,7 @@ function Search() {
         }
         setTempInfo(myNewWeatherInfo)
      })
-     .catch(err => alert(err))
+     .catch(err => alert(err.message('Place Not Found))
      
     }
     useEffect(() => {
