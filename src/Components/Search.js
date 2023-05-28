@@ -28,7 +28,7 @@ function Search() {
         }
         setTempInfo(myNewWeatherInfo)
      })
-     .catch(err => console.log(err))
+     .catch(err => alert(err))
      
     }
     useEffect(() => {
